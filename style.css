@@ -61,3 +61,30 @@ p {
 .four {
     margin-top: 50px;
 }
+
+@media (max-width: 844px) {
+    .title h3 {
+        font-size: 40px;
+    }
+    
+    .title h1 {
+        font-size: 40px;
+    }
+    
+    .card-group {
+        display: inline-flex;
+    }
+    
+    .card-group .card img {
+        width: 40vw;
+    }
+
+    .card h3,
+    p {
+        font-size: large;
+    }
+
+    .five {
+        margin-top: 50px;
+    }
+}
