@@ -2,3 +2,62 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #1d1d1d;
+}
+
+.title {
+    text-align: center;
+    margin-top: 51.7px;
+    margin-bottom: 30px;
+}
+
+.title h3 {
+    font-family: 'Sylvester';
+    font-size: 3vw;
+    font-weight: 400;
+    color: #8F94FF;
+}
+
+.title h1 {
+    font-family: 'Satoshi';
+    font-size: 5vw;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.card-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+
+.card-group .card img {
+    width: 15vw;
+}
+
+.card h3,
+p {
+    color: #f1f1f1;
+    font-size: 1.5vw;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.one {
+    margin-top: 10px;
+}
+
+.two {
+    margin-top: 80px;
+}
+
+.three {
+    margin-top: 5px;
+}
+
+.four {
+    margin-top: 50px;
+}
